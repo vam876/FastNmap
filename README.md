@@ -1,6 +1,5 @@
 # FastNmap - Nmap图形化扫描工具
 
-![FastNmap Logo](docs/logo.png)
 
 FastNmap是一个强大、现代化的Nmap图形界面工具，为网络管理员和安全研究人员提供了友好的可视化界面，使Nmap的高级功能变得简单易用。
 
@@ -102,9 +101,9 @@ FastNmap支持将扫描结果以多种格式导出：
 - **结果可视化** - 使用颜色和格式化展示扫描结果，使信息一目了然
 
 ## 截图
-
-![主界面](docs/main_screen.png)
-![扫描结果](docs/scan_results.png)
+![默认扫描](https://github.com/user-attachments/assets/33f7e516-8d6d-4a10-8e98-108f891fe157)
+![服务指纹识别](https://github.com/user-attachments/assets/8a3b2441-a9f4-4734-ba7c-1cb010fcba77)
+![暴力破解](https://github.com/user-attachments/assets/1d20b405-7e65-4736-8899-f58fe8ae24f0)
 
 ## 常见问题
 
@@ -117,15 +116,6 @@ A: 尝试启用"Fast Mode"，或调整线程参数。注意，某些扫描类型
 **Q: 暴力破解没有结果**  
 A: 检查目标服务是否允许暴力破解，某些服务可能有防护措施。同时确保字典文件存在且包含合适的凭证。
 
-## 贡献
-
-欢迎通过以下方式贡献：
-
-1. Fork仓库
-2. 创建功能分支 (`git checkout -b feature/amazing-feature`)
-3. 提交更改 (`git commit -m 'Add some amazing feature'`)
-4. 推送到分支 (`git push origin feature/amazing-feature`)
-5. 创建Pull Request
 
 ## 许可证
 
