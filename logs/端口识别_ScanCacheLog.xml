@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Fri Sep 12 11:07:22 2025 as: &quot;C:\\Program Files (x86)\\Nmap\\nmap.EXE&quot; -&#45;min-parallelism 50 -vvv -sS -sV -&#45;open -p 445 -oX logs\\&#xb6;&#xcb;&#xbf;&#xda;&#xca;&#xb6;&#xb1;&#xf0;_ScanCacheLog.xml 127.0.0.1 -->
+<nmaprun scanner="nmap" args="&quot;C:\\Program Files (x86)\\Nmap\\nmap.EXE&quot; -&#45;min-parallelism 50 -vvv -sS -sV -&#45;open -p 445 -oX logs\\&#xb6;&#xcb;&#xbf;&#xda;&#xca;&#xb6;&#xb1;&#xf0;_ScanCacheLog.xml 127.0.0.1" start="1757646442" startstr="Fri Sep 12 11:07:22 2025" version="7.92" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="445"/>
+<verbose level="3"/>
+<debugging level="0"/>
+<taskbegin task="SYN Stealth Scan" time="1757646443"/>
+<taskend task="SYN Stealth Scan" time="1757646443" extrainfo="1 total ports"/>
+<taskbegin task="Service scan" time="1757646443"/>
+<taskend task="Service scan" time="1757646449" extrainfo="1 service on 1 host"/>
+<taskbegin task="NSE" time="1757646449"/>
+<taskend task="NSE" time="1757646449"/>
+<taskbegin task="NSE" time="1757646449"/>
+<taskend task="NSE" time="1757646449"/>
+<host starttime="1757646443" endtime="1757646449"><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="127.0.0.1" addrtype="ipv4"/>
+<hostnames>
+<hostname name="www.mgtv.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="1000" rttvar="5000" to="100000"/>
+</host>
+<runstats><finished time="1757646449" timestr="Fri Sep 12 11:07:29 2025" summary="Nmap done at Fri Sep 12 11:07:29 2025; 1 IP address (1 host up) scanned in 7.13 seconds" elapsed="7.13" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

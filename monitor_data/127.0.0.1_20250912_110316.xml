@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Fri Sep 12 11:03:16 2025 as: &quot;C:\\Program Files (x86)\\Nmap\\nmap.EXE&quot; -&#45;min-parallelism 50 -&#45;host-timeout 300s -vvv -T4 -sS -&#45;open -n -p 21,22,23,25,53,80,110,111,135,139,143,443,993,995,1723,3389,5900,8080 -oX monitor_data\\127.0.0.1_20250912_110316.xml 127.0.0.1 -->
+<nmaprun scanner="nmap" args="&quot;C:\\Program Files (x86)\\Nmap\\nmap.EXE&quot; -&#45;min-parallelism 50 -&#45;host-timeout 300s -vvv -T4 -sS -&#45;open -n -p 21,22,23,25,53,80,110,111,135,139,143,443,993,995,1723,3389,5900,8080 -oX monitor_data\\127.0.0.1_20250912_110316.xml 127.0.0.1" start="1757646196" startstr="Fri Sep 12 11:03:16 2025" version="7.92" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="18" services="21-23,25,53,80,110-111,135,139,143,443,993,995,1723,3389,5900,8080"/>
+<verbose level="3"/>
+<debugging level="0"/>
+<taskbegin task="SYN Stealth Scan" time="1757646197"/>
+<taskend task="SYN Stealth Scan" time="1757646197" extrainfo="18 total ports"/>
+<host starttime="1757646197" endtime="1757646197"><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="127.0.0.1" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="15">
+<extrareasons reason="reset" count="15" proto="tcp" ports="21-23,25,53,110-111,139,143,443,993,995,1723,5900,8080"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3389"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ms-wbt-server" method="table" conf="3"/></port>
+</ports>
+<times srtt="96" rttvar="217" to="100000"/>
+</host>
+<runstats><finished time="1757646197" timestr="Fri Sep 12 11:03:17 2025" summary="Nmap done at Fri Sep 12 11:03:17 2025; 1 IP address (1 host up) scanned in 0.74 seconds" elapsed="0.74" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
