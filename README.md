@@ -10,10 +10,12 @@ FastNmap是一个强大、现代化的Nmap图形界面工具，为网络管理�
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)](https://github.com/vam876/FastNmap)
 [![Nmap](https://img.shields.io/badge/Nmap-red.svg)](https://nmap.org/)
 
-- **最新版本**: 0.2.0
-- **更新日期**: 2025/09/12
+- **最新版本**: 0.5.0 （全新界面）
+- **更新日期**: 2025/11/16
+- **下载地址**:  [新版下载](https://github.com/vam876/FastNmap/releases/tag/V0.5.0)   |   [旧版下载](https://github.com/vam876/FastNmap/releases/tag/V0.2.0)
 
-<img width="1126" height="701" alt="主界面" src="https://github.com/user-attachments/assets/3a523094-f4ff-48d5-830b-1b9f0d1d16bf" />
+<img width="1920" height="1017" alt="image" src="https://github.com/user-attachments/assets/12a9a5f9-1542-4e93-a681-c23777f33423" />
+<img width="1920" height="973" alt="image" src="https://github.com/user-attachments/assets/631fa28e-ebcf-4f69-8ee7-28a9adf56ea9" />
 
 
 ## ✨ 核心特性
@@ -346,3 +348,4 @@ FastNmap 构建优化的 Nmap 命令，具备：
 **⚠️ 法律声明**: 此工具仅用于授权的安全测试和网络管理。用户有责任遵守适用的法律法规。未经授权的网络扫描可能违法，请确保在合法授权的范围内使用本工具。
 
 **🌟 如果本项目对您有帮助，请给我们一个 Star！** 
+
