@@ -1,7 +1,7 @@
 # FastNmap - Nmap图形化扫描工具
 
 
-FastNmap是一个强大、现代化的Nmap图形界面工具，为网络管理员和安全研究人员提供了友好的可视化界面，让“扫描之王”Nmap的功能变得简单易用，同时集成了高级功能，包括漏洞扫描、暴力破解、资产监控、资产对比与报告生成等。
+FastNmap是一个强大、现代化的Nmap图形界面工具，为网络管理员和安全研究人员提供了友好的可视化界面，让“扫描之王”Nmap的功能变得简单易用，同时集成了高级功能，包括漏洞扫描、端口服务识别、操作系统识别、资产监控、资产对比与资产管理等。
 
 
 [![Python](https://img.shields.io/badge/Python-3-blue.svg)](https://www.python.org/)
@@ -12,7 +12,7 @@ FastNmap是一个强大、现代化的Nmap图形界面工具，为网络管理�
 
 
 - **最新版本**: 0.6.0 （全新界面）
-- **更新日期**: 2025/12/17
+- **更新日期**: 2025/12/16
 - **下载地址**:  [新版下载](https://github.com/vam876/FastNmap/releases/tag/V0.6.0)   |   [旧版下载](https://github.com/vam876/FastNmap/releases/tag/V0.2.0)
   
 <img width="1508" height="843" alt="image" src="https://github.com/user-attachments/assets/ab0af72c-a572-4d8c-91d2-7032acae67b3" />
@@ -23,7 +23,9 @@ FastNmap是一个强大、现代化的Nmap图形界面工具，为网络管理�
 
 ## ✨ 核心特性
 
-### 
+### 新版架构
+<img width="1176" height="872" alt="05" src="https://github.com/user-attachments/assets/809fea60-a719-4c40-aa6d-280b65aa0a64" />
+
 
 ### 🔍 多样化扫描功能
 - **多种扫描类型**: 默认扫描、存活检测、服务识别、系统识别、端口识别、暴力破解、漏洞扫描
@@ -143,8 +145,7 @@ FastNmap/                               # 项目根目录
 │   │   ├── nmap_executor.py          # 扫描执行与调度
 │   │   ├── nmap_parser.py            # XML 结果解析
 │   │   ├── asset_monitor.py          # 资产持续监控
-│   │   ├── html_report.py            # HTML 报告生成
-│   │   └── vuln_scanner.py           # 漏洞检测封装
+│   │   └── html_report.py            # HTML 报告生成
 │   ├── gui/                            # 图形界面
 │   │   ├── __init__.py
 │   │   ├── main_window.py              # 主窗口
@@ -354,5 +355,6 @@ FastNmap 构建优化的 Nmap 命令，具备：
 **⚠️ 法律声明**: 此工具仅用于授权的安全测试和网络管理。用户有责任遵守适用的法律法规。未经授权的网络扫描可能违法，请确保在合法授权的范围内使用本工具。
 
 **🌟 如果本项目对您有帮助，请给我们一个 Star！** 
+
 
 
